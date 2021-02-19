@@ -18,7 +18,7 @@ It is a simple model for recognising the MNIST images <b>(28 x 28)</b> pixels.
   </p>
 </kbd>
 <h3><u>Android TensorFlow App Structure</u></h3> 
-<b> THIS IS HOW MY MODEL WORKS IN FOUR STEPS </b>
+<b> THIS IS HOW MY MODEL WORKS IN FOUR STEPS </b><br>
   1. Image BitMap to the NDK.<br>
   2. Input Tensor to the Tensorflow PreTrained Model.<br>
   3. Predicting the Top result.<br>
