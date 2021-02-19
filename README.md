@@ -17,4 +17,12 @@ It is a simple model for recognising the MNIST images <b>(28 x 28)</b> pixels.
     <img width="250" height="330" src="https://raw.githubusercontent.com/vedantgoswami/Digit-Recognizer/main/images2/9.PNG">
   </p>
 </kbd>
- 
+<h3><u>Android TensorFlow App Structure</u></h3> 
+<b> THIS IS HOW MY MODEL WORKS IN FOUR STEPS </b>
+  1. Image BitMap to the NDK.<br>
+  2. Input Tensor to the Tensorflow PreTrained Model.<br>
+  3. Predicting the Top result.<br>
+  4. Returning classification and Confidence to the SDK.<br>
+<p align="center">
+  <img src="https://github.com/vedantgoswami/Digit-Recognizer/blob/main/images2/android-tensorflow-app-structure_2.png">
+ </p>
